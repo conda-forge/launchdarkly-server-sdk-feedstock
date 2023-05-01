@@ -1,11 +1,11 @@
-About launchdarkly-server-sdk
-=============================
+About launchdarkly-server-sdk-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/launchdarkly-server-sdk-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/launchdarkly/python-server-sdk
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/launchdarkly-server-sdk-feedstock/blob/main/LICENSE.txt)
 
 Summary: LaunchDarkly SDK for Python
 
