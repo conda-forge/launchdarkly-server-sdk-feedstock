@@ -1,5 +1,5 @@
 {% set name = "launchdarkly-server-sdk" %}
-{% set version = "9.0.1" %}
+{% set version = "9.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/launchdarkly-server-sdk-{{ version }}.tar.gz
-  sha256: 18b23d72fd5c21f3390144c86067c0bdbbd6576252b60753cef71d1db4795bf9
+  sha256: 64cd2870ed54b116ea98c9dda69e88b0d43157c316d27b8953d437fab949a51d
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - launchdarkly-eventsource >=1.1.0,<2.0.0
     - certifi >=2018.4.16
     - expiringdict >=1.1.4
     - pyrfc3339 >=1.0
