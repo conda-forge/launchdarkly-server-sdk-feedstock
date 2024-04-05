@@ -1,5 +1,5 @@
 {% set name = "launchdarkly-server-sdk" %}
-{% set version = "9.3.0" %}
+{% set version = "9.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 43f786ee5ea1950072bf8eee0fe95c62f9fcd5f5f0e0495453b3be26fd2d5c23
+  sha256: f5ec6156e51935b6db1f1028047d11ef9c2bcd318fc23bccc0144346bd9c9c71
 
 build:
   noarch: python
