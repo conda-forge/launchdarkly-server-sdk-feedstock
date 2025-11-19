@@ -1,5 +1,5 @@
 {% set name = "launchdarkly-server-sdk" %}
-{% set version = "9.12.0" %}
+{% set version = "9.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 219b100d7569e4f528b6028cbd2a5d61f13539f2b44ed43fc173bb4f456ee580
+  sha256: 0ba40946e4c0dd09fb39279f68f98f963fc7253232df536aeb1a36fef19857c2
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - poetry-core
     - python {{ python_min }}
   run:
-    - launchdarkly-eventsource >=1.2.4,<2.0.0
+    - launchdarkly-eventsource >=1.5.0,<2.0.0
     - certifi >=2018.4.16
     - expiringdict >=1.1.4
     - pyrfc3339 >=1.0
