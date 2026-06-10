@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - poetry-core
+    - hatchling
     - python {{ python_min }}
   run:
     - launchdarkly-eventsource >=1.5.0,<2.0.0
